@@ -16,6 +16,7 @@ ft_read:
     push rdi
     call __errno_location
     pop rdi
+    neg rdi ; if linux distro, should be negated, kernel returns negative error code -> double negation will give positive errno value. MacOs does not negation
     mov [rax], rdi
     mov rax, -1
     ret

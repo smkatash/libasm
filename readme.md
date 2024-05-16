@@ -1,3 +1,5 @@
+Current project is implemented on Linux distro.
+
 rax: Accumulator register. Used for arithmetic operations and as a return value for function calls.
 rbx: Base register. Typically used as a base address for memory operations.
 rcx: Counter register. Often used as a loop counter.
