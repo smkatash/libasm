@@ -1,6 +1,8 @@
 ### Library libasm.a
 
-It is rewrite of following functions in asm:
+**Current project is implemented on Linux distro.**
+
+It is a rewrite of following functions in asm:
 ```
 ◦ ft_strlen (man 3 strlen)
 ◦ ft_strcpy (man 3 strcpy)
@@ -9,8 +11,6 @@ It is rewrite of following functions in asm:
 ◦ ft_read (man 2 read)
 ◦ ft_strdup (man 3 strdup, you can call to malloc)
 ```
-
-**Current project is implemented on Linux distro.**
 
 * rax: Accumulator register. Used for arithmetic operations and as a return value for function calls.
 * rbx: Base register. Typically used as a base address for memory operations.
